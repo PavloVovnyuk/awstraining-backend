@@ -39,19 +39,19 @@ ${jsonencode(
       ]
     },
     {
-    "Effect": "Allow",
-    "Action":"sns:Publish",
-    "Resource": "*"
+      "Effect": "Allow",
+      "Action":"sns:Publish",
+      "Resource": "*"
     },
     {
-    "Effect": "Allow",
-    "Action": "translate:TranslateText"
-    "Resource": "*"
+      "Effect": "Allow",
+      "Action": "translate:TranslateText"
+      "Resource": "*"
      },
      {
-     "Effect": "Allow",
-     "Action": "comprehend:DetectSentiment"
-     "Resource": "*"
+       "Effect": "Allow",
+       "Action": "comprehend:DetectSentiment"
+       "Resource": "*"
       }
   ]
 }
