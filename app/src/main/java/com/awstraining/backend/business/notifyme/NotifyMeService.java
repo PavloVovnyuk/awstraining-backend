@@ -34,7 +34,7 @@ public class NotifyMeService {
         String translatedText = translator.translate(notifyMe);
 //        sender.send(translatedText);
         // TODO: lab3
-        String sentimented = sentiment.detectSentiment("de", translatedText);
+        String sentimented = sentiment.detectSentiment( notifyMe.sourceLc(), translatedText);
         sender.send(sentimented);
         //  1. Detect sentiment of translated message.
         //  2. Change sending of text to "setiment: translated text" and return it.
