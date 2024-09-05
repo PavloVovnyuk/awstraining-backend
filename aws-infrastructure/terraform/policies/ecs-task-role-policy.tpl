@@ -43,6 +43,7 @@ ${jsonencode(
     "Action":"sns:Publish",
     "Resource": "*"
     },
+    {
     "Effect": "Allow",
     "Action": "translate:TranslateText"
     "Resource": "*"
